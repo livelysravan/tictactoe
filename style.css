@@ -1,0 +1,13 @@
+.cell {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 24px;
+     font-weight: bold;
+     border: 1px solid #ccc;
+     cursor: pointer;
+     height: 80px; /* Added height for consistent cell size */
+     width: 80px; /* Added width for consistent cell size */
+     box-sizing: border-box; /* Include border in the width and height calculations */
+   }
+   
